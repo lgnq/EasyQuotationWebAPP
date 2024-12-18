@@ -1,5 +1,8 @@
-// Variable Identifier
-const exampleDeclaration = document.getElementById("placeIdHere");
+const calculator = document.querySelector('.calculator')
+const keys = calculator.querySelector('.calculator__keys')
 
-// Function Declaration
-function ExampleFunctionName(params) {}
+keys.addEventListener('click', e => {
+  if (e.target.matches('button')) {
+    // Do something
+  }
+})
